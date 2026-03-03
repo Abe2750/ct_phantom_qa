@@ -1,0 +1,2 @@
+# Place DICOM .dcm files here for QC analysis.
+# Never commit real patient DICOM data to version control.

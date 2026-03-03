@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.env
+.venv
+venv/
+env/
+
+# Output (generated files -- do not commit)
+output/
+*.csv
+
+# DICOM data (never commit patient data to version control)
+data/sample_dicoms/**/*.dcm
+data/**/*.dcm
+!data/.gitkeep
+!data/sample_dicoms/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Coverage
+.coverage
+htmlcov/
