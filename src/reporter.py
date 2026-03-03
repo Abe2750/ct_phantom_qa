@@ -129,8 +129,7 @@ def print_summary(
                 )
 
     lines.append("=" * 60)
-    summary = "
-".join(lines)
+    summary = "\n".join(lines)
     print(summary)
     return summary
 
