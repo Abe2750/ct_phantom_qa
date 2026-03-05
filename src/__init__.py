@@ -1,1 +1,0 @@
-# CT Phantom QA package
